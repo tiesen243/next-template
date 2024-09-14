@@ -12,7 +12,6 @@ const config = {
   tailwindFunctions: ['cn', 'cva'],
   plugins: ['prettier-plugin-tailwindcss', '@ianvs/prettier-plugin-sort-imports'],
   importOrderParserPlugins: ['typescript', 'jsx', 'decorators-legacy', 'moduleStringNames'],
-  importOrderTypeScriptVersion: '5.6.2',
   importOrder: [
     '<TYPES>',
     '^(next/(.+))$',

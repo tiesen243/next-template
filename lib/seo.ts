@@ -21,12 +21,10 @@ export const seo = (params: Params): Metadata => {
     metadataBase: new URL(getBaseUrl()),
     title,
     description,
-    creator: 'Tiesen',
-    applicationName: 'Next Template',
+    applicationName: 'Create Yuki App',
     alternates: { canonical: url },
-    authors: { name: 'Tiesen', url: 'https://tiesen.id.vn' },
-    openGraph: { url, images, type: 'website', siteName: 'Yuki' },
-    twitter: { card: 'summary_large_image', creatorId: '@tiesen243' },
-    icons: { icon: '/favicon.ico', shortcut: '/favicon-16x16.png', apple: '/apple-touch-icon.png' },
+    openGraph: { url, images, type: 'website' },
+    twitter: { card: 'summary_large_image' },
+    icons: { icon: '/favicon.ico' },
   }
 }

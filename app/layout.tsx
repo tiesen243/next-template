@@ -12,7 +12,7 @@ const RootLayout: React.FC<React.PropsWithChildren> = ({ children }) => (
   <html lang="en" suppressHydrationWarning>
     <body
       className={cn(
-        'font-sans antialiased bg-background text-foreground min-h-dvh',
+        'min-h-dvh bg-background font-sans text-foreground antialiased',
         GeistSans.variable,
       )}
     >

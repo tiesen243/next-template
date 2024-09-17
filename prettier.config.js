@@ -10,7 +10,7 @@ const config = {
   singleQuote: true,
   trailingComma: 'all',
   tailwindFunctions: ['cn', 'cva'],
-  plugins: ['prettier-plugin-tailwindcss', '@ianvs/prettier-plugin-sort-imports'],
+  plugins: ['@ianvs/prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss'],
   importOrderParserPlugins: ['typescript', 'jsx', 'decorators-legacy', 'moduleStringNames'],
   importOrder: [
     '<TYPES>',

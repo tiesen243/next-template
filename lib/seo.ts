@@ -1,16 +1,16 @@
-import { type OpenGraph } from 'next/dist/lib/metadata/types/opengraph-types'
+import type { OpenGraph } from 'next/dist/lib/metadata/types/opengraph-types'
 import { type Metadata } from 'next'
 
 import { getBaseUrl } from '@/lib/utils'
 
-interface Params {
+interface Prams {
   title?: string
   description?: string
-  images?: OpenGraph['images']
   url?: string
+  images?: OpenGraph['images']
 }
 
-export const seo = (params: Params): Metadata => {
+export const seo = (params: Prams): Metadata => {
   const title = params.title ? `${params.title} | Create Yuki App` : 'Create Yuki App'
   const description =
     params.description ?? 'A Next.js template with TypeScript, Tailwind CSS, ESLint and Prettier'

@@ -12,22 +12,21 @@ const Page: NextPage = () => (
 
       <Typography level="h1" className="text-center brightness-150">
         A Next.js template with{' '}
-        <span className="bg-gradient-to-br from-[#3178C6] to-secondary bg-clip-text text-transparent">
+        <span className="bg-[linear-gradient(135deg,#3178C6,69%,hsl(var(--background)))] bg-clip-text text-transparent">
           TypeScript
         </span>
         ,{' '}
-        <span className="bg-gradient-to-br from-[#06B6D4] to-secondary bg-clip-text text-transparent">
+        <span className="bg-[linear-gradient(135deg,#06B6D4,69%,hsl(var(--background)))] bg-clip-text text-transparent">
           Tailwind CSS
         </span>
         ,{' '}
-        <span className="bg-gradient-to-br from-[#4B32C3] to-secondary bg-clip-text text-transparent">
+        <span className="bg-[linear-gradient(135deg,#4B32C3,69%,hsl(var(--background)))] bg-clip-text text-transparent">
           ESLint
         </span>{' '}
         and{' '}
-        <span className="bg-gradient-to-br from-[#F7B93E] to-secondary bg-clip-text text-transparent">
+        <span className="bg-[linear-gradient(135deg,#F7B93E,69%,hsl(var(--background)))] bg-clip-text text-transparent">
           Prettier
         </span>
-        .
       </Typography>
 
       <Button variant="outline" className="my-4 gap-2" asChild>

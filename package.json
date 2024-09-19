@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prisma format && prettier --check .",
-    "format:fix": "prettier --check . --write"
+    "format:fix": "prettier --check . --write",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",

@@ -15,7 +15,7 @@ export const seo = (params: Prams): Metadata => {
   const description =
     params.description ?? 'A Next.js template with TypeScript, Tailwind CSS, ESLint and Prettier'
   const images = params.images ?? ['/api/og']
-  const url = params.url ? `${getBaseUrl()}/${params.url}` : getBaseUrl()
+  const url = params.url ? `${getBaseUrl()}${params.url}` : getBaseUrl()
 
   return {
     metadataBase: new URL(getBaseUrl()),

@@ -10,6 +10,7 @@ import Post from './_components/post'
 
 const Page: NextPage = async () => {
   const session = await auth()
+
   void api.post.getLatest.prefetch()
 
   return (

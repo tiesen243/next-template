@@ -13,8 +13,7 @@ const Post: React.FC = () => {
   const [name, setName] = useState<string>('')
   const [latestPost] = api.post.getLatest.useSuspenseQuery()
   const createPost = api.post.create.useMutation({
-    onSuccess: () => utils.post.getLatest.invalidate(),
-    onError: (err) => console.error(err),
+    onError: (err) => console.log(err.message),
   })
 
   return (

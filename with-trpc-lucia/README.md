@@ -8,16 +8,16 @@ A Next.js template with TypeScript, Tailwind CSS, ESLint and Prettier.
 
 ```bash
 # using npm
-npx create-next-app@latest --example https://github.com/tiesen243/create-yuki-app
+npx create-next-app@latest --example https://github.com/tiesen243/create-yuki-app/tree/main/with-trpc-lucia
 
 # using yarn
-yarn create next-app@latest --example https://github.com/tiesen243/create-yuki-app
+yarn create next-app@latest --example https://github.com/tiesen243/create-yuki-app/tree/main/with-trpc-lucia
 
 # using pnpm
-pnpx create-next-app@latest --example https://github.com/tiesen243/create-yuki-app
+pnpx create-next-app@latest --example https://github.com/tiesen243/create-yuki-app/tree/main/with-trpc-lucia
 
 # using bun
-bunx --bun create-next-app@latest --example https://github.com/tiesen243/create-yuki-app
+bunx --bun create-next-app@latest --example https://github.com/tiesen243/create-yuki-app/tree/main/with-trpc-lucia
 ```
 
 ### Create `.env` file

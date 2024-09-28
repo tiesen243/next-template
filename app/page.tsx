@@ -55,11 +55,14 @@ const Page: NextPage = async () => {
         </Button>
 
         {session ? (
-          <Post />
+          <>
+            <Typography>Welcome back, {session.user.username}!</Typography>
+            <Post />
+          </>
         ) : (
-          <Typography level="h2" className="text-center">
-            Please sign in to view the latest post
-          </Typography>
+          <form action="/api/auth/discord" method="get">
+            <Button variant="outline">Sign in with Discord</Button>
+          </form>
         )}
       </main>
     </HydrateClient>
